@@ -1,0 +1,44 @@
+body{
+    background:#f5f5f5;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.card{
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    height:300px;
+    object-fit:cover;
+}
+
+.navbar-brand{
+    font-weight:bold;
+}
+
+.btn{
+    border-radius:10px;
+}
+
+input,
+textarea,
+select{
+    border-radius:10px !important;
+}
+
+.container{
+    padding-bottom:50px;
+}
+
+h2{
+    font-weight:bold;
+}
+
+.spinner-border{
+    width:60px;
+    height:60px;
+}
